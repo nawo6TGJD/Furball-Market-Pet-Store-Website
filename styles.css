@@ -382,10 +382,6 @@ img.header__image-bg {
   color: var(--text-light);
 }
 
-.product {
-  position: relative;
-  isolation: isolate;
-}
 
 .product::before {
   position: absolute;
@@ -397,6 +393,12 @@ img.header__image-bg {
   background-color: #fdf2d9;
   z-index: -1;
 }
+
+.product {
+  position: relative;
+  isolation: isolate;
+}
+
 
 .product__grid {
   margin-top: 4rem;
